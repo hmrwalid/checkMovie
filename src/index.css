@@ -1,0 +1,100 @@
+body{
+  background-color: #22254b;
+  color: white;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+
+}
+header{
+ /* border: solid red;*/
+  padding: 1rem;
+  background-color: #373b69;
+  display: flex;
+  justify-content: flex-end;
+
+}
+.head{
+  padding: 0.5rem 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.search{
+  background-color: transparent;
+  border: 2px solid whitesmoke;
+  width: max-content;
+  border-radius: 50px;
+  color: wheat;
+  font-family: inherit;
+  font-size: 1.2rem;
+  padding: 0.5rem 1.5rem;
+}
+
+.movie-container{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #373b69;
+}
+
+
+
+.movie{
+  margin: 1rem;
+  width: 300px;
+  border-radius: 3px;
+  box-shadow: 3px 3px 5px rgba(0,0,0,0.1);
+  overflow: hidden;
+  position: relative;
+ /* border: solid red;*/
+}
+
+
+.movie img{
+  max-width: 100%;
+  
+  
+}
+.info-movie{
+  display: flex;
+  justify-content: space-between;
+   padding: 1rem;
+}
+.m-overviem{
+  max-height: 100%;
+  background-color: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 1rem;
+  color: #22254b;
+  transform: translateY(100%);
+  transition: 0.3s ease-in-out;
+}
+.movie:hover .m-overviem{
+  transform: translateY(0%);
+}
+
+form.form-mod {
+  display: table;
+}
+
+div.form-mod {
+  display: table-row;
+}
+
+label, input {
+  display: table-cell;
+  margin-bottom: 10px;
+}
+
+label {
+  padding-right: 10px;
+  color: red;
+}
+.Add button {
+  height: 100px;
+  width: 500px;
+  background-color: #373b69;
+  color: #fff;
+  font-size: 1.5rem;
+}
